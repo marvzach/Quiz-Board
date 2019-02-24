@@ -9,7 +9,7 @@ function check(){
 	var total=5;
 	var wrong;
 	var comments;
-	
+
 	if (question2 == "Array") {
 		correct++;
 	}
@@ -25,3 +25,5 @@ function check(){
 	if (question6 == "Loop") {
 		correct++;
 	}
+	wrong=total-correct;
+	percent=(100*correct)/total;
