@@ -27,3 +27,13 @@ function check(){
 	}
 	wrong=total-correct;
 	percent=(100*correct)/total;
+
+	if(percent>=80){
+ 	comments="Sky Rocket, and always aim to the top like a rocket";
+ }
+ else if (percent>=40) {
+ 	comments="Keep Pushing man";
+ }
+ else{
+ 	comments="Just work hard and play hard";
+ }
