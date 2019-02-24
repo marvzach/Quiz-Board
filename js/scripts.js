@@ -58,3 +58,8 @@ function check(){
 		document.getElementById("comments").innerHTML = "Yo " + comments;
 		document.getElementById("picture").src = pics[score];
 	}
+	$(document).ready(function() {
+          $(".clickable").click(function() {
+            $("#output").slideToggle();
+          });
+        });
