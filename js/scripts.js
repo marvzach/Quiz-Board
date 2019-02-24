@@ -37,3 +37,18 @@ function check(){
  else{
  	comments="Just work hard and play hard";
  }
+
+ var pics = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
+ var score;
+
+	if (correct == 0) {
+		score = 2;
+	}
+
+	if (correct > 0 && correct < 3) {
+		score = 1;
+	}
+
+	if (correct == 3) {
+		score = 0;
+	}
