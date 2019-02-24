@@ -63,3 +63,9 @@ function check(){
             $("#output").slideToggle();
           });
         });
+	$(document).ready(function() {
+					 $(".clickable").click(function() {
+							$("#hide").slideToggle()
+								  $("#hide").show();
+								  });
+								});
