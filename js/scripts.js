@@ -9,3 +9,19 @@ function check(){
 	var total=5;
 	var wrong;
 	var comments;
+	
+	if (question2 == "Array") {
+		correct++;
+	}
+	if (question3 == "Yes") {
+		correct++;
+	}
+	if (question4 == "Netscape") {
+		correct++;
+	}
+	if (question5 == 122) {
+		correct++;
+	}
+	if (question6 == "Loop") {
+		correct++;
+	}
