@@ -1,0 +1,53 @@
+#hide{
+  display: none;
+}
+span{
+  color: #e75480;
+}
+body{
+
+ border-radius: 10px;
+ font-family: 'Open Sans Condensed', sans-serif;
+
+}
+form{
+font-size: 17px;
+margin-left: 30px;
+
+}
+.panel-title {
+  font-size: 65px;
+  color: #e75480;
+  text-align: center;
+
+}
+input[type=button] {
+  background-color: #e75480;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  width: 100px;
+  border-radius: 10px;
+  height: 40px;
+  margin: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 10px;
+}
+input[type=button]:hover {
+  background-color: red;
+
+}
+input:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+input[type=button]:focus{
+  background-color: white;
+  width: 200px;
+  color: #53e3a6;
+}
+.container{
+  margin-top: 100px;
+}
+#output{
+  font-size: 20px;
+}

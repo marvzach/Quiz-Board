@@ -12,51 +12,48 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
-        <div class="panel panel-info">
-          <div class="panel-heading">
-            <h2 class="panel-title">Top JavaScript Quiz</h2>
-          </div>
-          <div class="panel-body">
-            <form id = "quiz" name = "quiz">
-              <p class = "questions">Which of these is not JavaScript<span> Data Type?</span></p>
-             <input type = "radio" id = "board" name = "question2" value = "Undefined">Undefined<br>
-             <input type = "radio" id = "board" name = "question2" value = "Boolean">Boolean<br>
-             <input type = "radio" id = "board" name = "question2" value = "Number">Number<br>
-             <input type = "radio" id = "board" name = "question2" value = "Array">Array<br>
-             <p class = "questions">Is it possible to break JavaScript Code into several lines?</p>
+      <div class="col-md-6">
+        <div class="jumbotron">
+          <h2 class="panel-title">Top JavaScript Quiz</h2>
+          <form id = "quiz" name = "quiz">
+            <p class = "questions">Which of these is not JavaScript<span> Data Type?</span></p>
+            <input type = "radio" id = "board" name = "question2" value = "Undefined">Undefined<br>
+            <input type = "radio" id = "board" name = "question2" value = "Boolean">Boolean<br>
+            <input type = "radio" id = "board" name = "question2" value = "Number">Number<br>
+            <input type = "radio" id = "board" name = "question2" value = "Array">Array<br>
+            <p class = "questions">Is it possible to <span>break </span>JavaScript Code into several lines?</p>
             <input type = "radio" id = "board" name = "question3" value = "Yes">Yes<br>
             <input type = "radio" id = "board" name = "question3" value = "No">No<br>
-            <p class = "questions">Which company developed JavaScript?</p>
+            <!-- <p class = "questions">Which company developed JavaScript?</p>
             <input type = "radio" id = "board" name = "question4" value = "Navigator">Navigator<br>
             <input type = "radio" id = "board" name = "question4" value = "Appranet">Appranet<br>
             <input type = "radio" id = "board" name = "question4" value = "Netscape">Netscape<br>
-            <input type = "radio" id = "board" name = "question4" value = "Microsoft">Microsoft<br>
-            <p class = "questions">What will the code below output to the console<br><strong>console.log(1 +  "2" + "2")</strong></p>
+            <input type = "radio" id = "board" name = "question4" value = "Microsoft">Microsoft<br> -->
+            <p class = "questions">What will the code below output to the console<br><strong><span>console.log(1 +  "2" + "2")</span></strong></p>
             <input type = "radio" id = "board" name = "question5" value = "5">5<br>
             <input type = "radio" id = "board" name = "question5" value = "14">14<br>
             <input type = "radio" id = "board" name = "question5" value = "221">221<br>
             <input type = "radio" id = "board" name = "question5" value = "122">122<br>
-            <p class = "questions">All these are types of Pop up boxes available in JavaScript expect?</p>
+            <!-- <p class = "questions">All these are types of Pop up boxes available in JavaScript expect?</p>
             <input type = "radio" id = "board" name = "question6" value = "Alert">Alert<br>
             <input type = "radio" id = "board" name = "question6" value = "Confrim">Confrim<br>
             <input type = "radio" id = "board" name = "question6" value = "Loop">Loop<br>
-            <input type = "radio" id = "board" name = "question6" value = "Prompt">Prompt<br>
+            <input type = "radio" id = "board" name = "question6" value = "Prompt">Prompt<br> -->
             <input id = "button"  class="clickable" type = "button" value = "Submit" onclick = "check();">
             <input id = "hide"    class="hiddenbtn" type="button"   value="Hide Results" >
-            </form>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6" id="okay">
+        <div class="well">
+          <div id="output" >
+            <p id = "number_correct"></p>
+            <p id = "percent"></p>
+            <p id = "wrong"></p>
+            <p id = "comments"></p>
+            <img id = "pics">
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- output section -->
-  <div id="ouput" >
-    <p id = "number_correct"></p>
-    <p id = "percent"></p>
-    <p id = "wrong"></p>
-    <p id = "comments"></p>
-    <img id = "pics">
-  </div>
-</body>
-</html>
+    </body>
+    </html>

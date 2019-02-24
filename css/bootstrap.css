@@ -8,9 +8,11 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+
 }
 body {
   margin: 0;
+
 }
 article,
 aside,
@@ -1086,7 +1088,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: lightseagreen;
 }
 input,
 button,
@@ -4960,7 +4962,7 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background: #90ee90;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5481,11 +5483,11 @@ button.list-group-item-danger.active:focus {
   color: inherit;
 }
 .panel-footer {
-  padding: 1px 1px;
+  padding: 10px 15px;
   background-color: #f5f5f5;
   border-top: 1px solid #ddd;
-  border-bottom-right-radius: 1px;
-  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 .panel > .list-group,
 .panel > .panel-collapse > .list-group {
@@ -6755,6 +6757,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-span{
-  color: #e75480;
-}
