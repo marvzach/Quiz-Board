@@ -69,3 +69,9 @@ function check(){
 								  $("#hide").show();
 								  });
 								});
+	$(document).ready(function() {
+						$("#hide").click(function() {
+						$("#hide").slideToggle()
+						$("#output").hide();
+				});
+					});
