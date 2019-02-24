@@ -52,3 +52,9 @@ function check(){
 	if (correct == 3) {
 		score = 0;
 	}
+	  document.getElementById("percent").innerHTML = "You score in percent " + percent;
+		document.getElementById("number_correct").innerHTML = "You got " + correct + " out of " + total;
+		document.getElementById("wrong").innerHTML = "Number wrong Answers " + wrong ;
+		document.getElementById("comments").innerHTML = "Yo " + comments;
+		document.getElementById("picture").src = pics[score];
+	}
