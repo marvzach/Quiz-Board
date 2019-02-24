@@ -6,13 +6,13 @@ span{
 }
 body{
 
- border-radius: 10px;
- font-family: 'Open Sans Condensed', sans-serif;
+  border-radius: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
 
 }
 form{
-font-size: 17px;
-margin-left: 30px;
+  font-size: 17px;
+  margin-left: 30px;
 
 }
 .panel-title {
