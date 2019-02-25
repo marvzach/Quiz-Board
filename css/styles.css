@@ -42,7 +42,7 @@ input:hover {
 }
 input[type=button]:focus{
   background-color: white;
-  width: 200px;
+  width: 180px;
   color: #53e3a6;
 }
 .container{
@@ -50,4 +50,8 @@ input[type=button]:focus{
 }
 #output{
   font-size: 20px;
+}
+img{
+  width: 400px;
+
 }
