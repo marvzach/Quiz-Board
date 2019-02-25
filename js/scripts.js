@@ -29,13 +29,13 @@ function check(){
 	percent=(100*correct)/total;
 
 	if(percent>=80){
-		comments="Sky Rocket, and always aim to the top like a rocket";
+		comments=" You have excellently passed.";
 	}
-	else if (percent>=40) {
-		comments="Keep Pushing man";
+	else if (percent>=50) {
+		comments="You have fairly passed";
 	}
 	else{
-		comments="Just work hard and play hard";
+		comments="Poor performance please retake the test";
 	}
 
 	var pics = ["images/win.gif", "images/mid.gif", "images/fail.gif"];
@@ -57,7 +57,7 @@ function check(){
 	document.getElementById("percent").innerHTML = "You score in percent " + percent;
 	document.getElementById("number_correct").innerHTML = "You got " + correct + " out of " + total;
 	document.getElementById("wrong").innerHTML = "Number wrong Answers " + wrong ;
-	document.getElementById("comments").innerHTML = "Yo " + comments;
+	document.getElementById("comments").innerHTML = comments;
 	document.getElementById("pics").src = pics[score];
 }
 $(document).ready(function() {
