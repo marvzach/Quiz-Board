@@ -29,13 +29,13 @@ function check(){
 	percent=(100*correct)/total;
 
 	if(percent>=80){
-		comments="Sky Rocket, and always aim to the top like a rocket";
+		comments=" You have excellently passed.";
 	}
-	else if (percent>=40) {
-		comments="Keep Pushing man";
+	else if (percent>=50) {
+		comments="You have fairly passed";
 	}
 	else{
-		comments="Just work hard and play hard";
+		comments="Poor performance please retake the test";
 	}
 
 	var pics = ["images/win.gif", "images/mid.gif", "images/fail.gif"];
