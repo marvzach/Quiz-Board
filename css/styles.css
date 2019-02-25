@@ -5,18 +5,18 @@ span{
   color: #e75480;
 }
 body{
-
- border-radius: 10px;
- font-family: 'Open Sans Condensed', sans-serif;
+  background-image: url('../images/bg11.jpg');
+  border-radius: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
 
 }
 form{
-font-size: 17px;
-margin-left: 30px;
+  font-size: 15px;
+  margin-left: 30px;
 
 }
 .panel-title {
-  font-size: 65px;
+  font-size: 55px;
   color: #e75480;
   text-align: center;
 
@@ -42,12 +42,17 @@ input:hover {
 }
 input[type=button]:focus{
   background-color: white;
-  width: 200px;
+  width: 180px;
   color: #53e3a6;
 }
 .container{
-  margin-top: 100px;
+  margin-top: 35px;
+
 }
 #output{
   font-size: 20px;
+}
+img{
+  width: 400px;
+
 }
