@@ -38,7 +38,7 @@ function check(){
 		comments="Just work hard and play hard";
 	}
 
-	var pics = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
+	var pics = ["images/win.gif", "images/mid.gif", "images/fail.gif"];
 	var score;
 
 	if (correct == 0) {
